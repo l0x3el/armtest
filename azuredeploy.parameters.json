@@ -36,7 +36,8 @@
                 "value": {
                     "Environment": "Development",
                     "Project": "Testing SWA with ARM",
-                    "ApplicationName": "myfirstswadeployment"
+                    //"ApplicationName": "myfirstswadeployment"
+                    "ApplicationName" : "[concat('myfirstswadeployment',uniqueString(resourceGroup().id))]"
                 }
             },
             "appSettings": {
