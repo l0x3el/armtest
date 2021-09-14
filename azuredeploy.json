@@ -20,9 +20,6 @@
             "branch": {
                 "type": "string"
             },
-            "repositoryToken": {
-                "type": "securestring"
-            },
             "appLocation": {
                 "type": "string"
             },
@@ -49,7 +46,6 @@
                 "properties": {
                     "repositoryUrl": "[parameters('repositoryUrl')]",
                     "branch": "[parameters('branch')]",
-                    "repositoryToken": "[parameters('repositoryToken')]",
                     "buildProperties": {
                         "appLocation": "[parameters('appLocation')]",
                         "apiLocation": "[parameters('apiLocation')]",
