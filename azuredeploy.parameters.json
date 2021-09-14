@@ -15,7 +15,7 @@
                 "value": "Free"
             },
             "repositoryUrl": {
-                "value": "https://github.com/l0x3el/my-static-web-app"
+                "value": "https://github.com/l0x3el/solutionmart-vuejs-1.0.0"
             },
             "branch": {
                 "value": "main"
@@ -30,7 +30,7 @@
                 "value": ""
             },
             "appArtifactLocation": {
-                "value": "src"
+                "value": "dist"
             },
             "resourceTags": {
                 "value": {
